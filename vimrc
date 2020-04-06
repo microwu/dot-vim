@@ -1,4 +1,3 @@
-123
 let g:is_ssh = ($SSH_CONNECTION != "")
 let s:is_win = has('win32')
 let s:is_tty = !match(&term, 'linux') || !match(&term, 'win32')
